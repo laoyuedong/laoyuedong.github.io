@@ -270,11 +270,9 @@ a{
     width: 88%;
   }
 }
-/* @media (min-width:576px){
-  #comments{
-    margin-bottom: -3em;
-  }
-} */
+@media (min-width:992px){
+  margin-bottom: 1.5em;
+}
 @media (max-width:640px){                                  
 	body {
 		width: 100%;
