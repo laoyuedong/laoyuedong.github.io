@@ -271,7 +271,9 @@ a{
   }
 }
 @media (min-width:992px){
-  margin-bottom: 1.5em;
+  h1 {
+    margin-bottom: 1.5em;
+  }
 }
 @media (max-width:640px){                                  
 	body {
