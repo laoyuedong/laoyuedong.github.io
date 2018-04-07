@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>捞月洞</title>
+  <title>GONE WITH YOU - 捞月洞</title>
 
   <!--Favicon-->
   <link rel="icon" href="/favicon/favicon.ico">
@@ -70,65 +70,48 @@
 
 
   		<div class="row">
-  			
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/04/07/gone-with-you/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/JnM8iDj.jpg" alt="GONE WITH YOU">
-      <div class="overlay">
-        <span class="overlay-text">GONE WITH YOU</span>
-      </div>
-    </a>
-  </div>
+  			<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="https://i.imgur.com/JnM8iDj.jpg" alt="GONE WITH YOU">
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>GONE WITH YOU</h1>
+</div>
+<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+  
 </div>
 
 
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/04/06/universe/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/w0OR9Wq.jpg" alt="UNIVERSE">
-      <div class="overlay">
-        <span class="overlay-text">UNIVERSE</span>
-      </div>
-    </a>
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div style="text-align:center;">
+      <button class="disqusbtn" id="load-disqus" onclick="disqus.load();">Click to Load Disqus Comments</button>
+    </div>
   </div>
-</div>
+</section>
 
 
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/04/05/nice-to-meet-you/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/kUWE15P.jpg" alt="NICE TO MEET YOU">
-      <div class="overlay">
-        <span class="overlay-text">NICE TO MEET YOU</span>
-      </div>
-    </a>
-  </div>
-</div>
+<script>
+  var disqus_shortname = 'lao-yue-dong';
+  
+  var disqus_url = 'https://laoyuedong.chaos.run/2018/04/07/gone-with-you/';
+  
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          }());
 
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/04/01/yellow/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/zvQMb4k.jpg" alt="YELLOW">
-      <div class="overlay">
-        <span class="overlay-text">YELLOW</span>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/04/01/sky/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/pzAfSDa.jpg" alt="SKY">
-      <div class="overlay">
-        <span class="overlay-text">SKY</span>
-      </div>
-    </a>
-  </div>
-</div>
+          $('#load-disqus').remove();
+        }
+    }
+  };
+</script>
 
 
 
