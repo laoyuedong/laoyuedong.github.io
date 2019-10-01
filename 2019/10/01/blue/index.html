@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>捞月洞</title>
+  <title>BLUE - 捞月洞</title>
 
   <!--Favicon-->
   <link rel="icon" href="/favicon/favicon.ico">
@@ -70,89 +70,48 @@
 
 
   		<div class="row">
-  			
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/10/01/blue/">
-      <img class="img-fluid portfolio-img" src="https://imgur.com/oW2WuaY" alt="BLUE">
-      <div class="overlay">
-        <span class="overlay-text">BLUE</span>
-      </div>
-    </a>
-  </div>
+  			<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="https://imgur.com/oW2WuaY" alt="BLUE">
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>BLUE</h1>
+</div>
+<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+  
 </div>
 
 
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/10/01/en/">
-      <img class="img-fluid portfolio-img" src="https://imgur.com/LPaDB3h" alt="EN">
-      <div class="overlay">
-        <span class="overlay-text">EN</span>
-      </div>
-    </a>
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div style="text-align:center;">
+      <button class="disqusbtn" id="load-disqus" onclick="disqus.load();">Click to Load Disqus Comments</button>
+    </div>
   </div>
-</div>
+</section>
 
 
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/10/01/ele/">
-      <img class="img-fluid portfolio-img" src="https://imgur.com/BY3IsUW" alt="ELE">
-      <div class="overlay">
-        <span class="overlay-text">ELE</span>
-      </div>
-    </a>
-  </div>
-</div>
+<script>
+  var disqus_shortname = 'lao-yue-dong';
+  
+  var disqus_url = 'https://laoyuedong.chaos.run/2019/10/01/blue/';
+  
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          }());
 
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/10/01/zhazha/">
-      <img class="img-fluid portfolio-img" src="https://imgur.com/9sh58tv" alt="ZHAZHA">
-      <div class="overlay">
-        <span class="overlay-text">ZHAZHA</span>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/06/24/chunhu/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/sdef2qK.jpg" alt="CHUNHU">
-      <div class="overlay">
-        <span class="overlay-text">CHUNHU</span>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/03/17/xin/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/9QwE1sm.jpg" alt="XIN">
-      <div class="overlay">
-        <span class="overlay-text">XIN</span>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2019/03/17/chun/">
-      <img class="img-fluid portfolio-img" src="https://i.imgur.com/JeFDSsB.jpg" alt="CHUN">
-      <div class="overlay">
-        <span class="overlay-text">CHUN</span>
-      </div>
-    </a>
-  </div>
-</div>
+          $('#load-disqus').remove();
+        }
+    }
+  };
+</script>
 
 
 
