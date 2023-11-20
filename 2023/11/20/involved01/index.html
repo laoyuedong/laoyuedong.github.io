@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>姑娘捞月</title>
+  <title>INVOLVED PROJECT 01 - 姑娘捞月</title>
 
   <!--Favicon-->
   <link rel="icon" href="/favicon/favicon.ico">
@@ -81,29 +81,48 @@
 
 
   		<div class="row">
-  			
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/06/10/where/">
-      <img class="img-fluid portfolio-img" src="/images/posts/eJkg4Rg.jpg" alt="WHERE">
-      <div class="overlay">
-        <span class="overlay-text">WHERE</span>
-      </div>
-    </a>
-  </div>
+  			<div class="col-12 mb-4">
+  <img class="img-fluid project-img" src="/images/posts/011.jpg" alt="INVOLVED PROJECT 01">
+</div>
+<div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+  <h1>INVOLVED PROJECT 01</h1>
+</div>
+<div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+  
 </div>
 
 
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2018/06/06/fast/">
-      <img class="img-fluid portfolio-img" src="/images/posts/gQ01tnz.jpg" alt="FAST">
-      <div class="overlay">
-        <span class="overlay-text">FAST</span>
-      </div>
-    </a>
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div style="text-align:center;">
+      <button class="disqusbtn" id="load-disqus" onclick="disqus.load();">Click to Load Disqus Comments</button>
+    </div>
   </div>
-</div>
+</section>
+
+
+<script>
+  var disqus_shortname = 'lao-yue-dong';
+  
+  var disqus_url = 'https://laoyuedong.chaos.run/2023/11/20/involved01/';
+  
+  var disqus = {
+    load : function disqus(){
+        if(typeof DISQUS !== 'object') {
+          (function () {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          }());
+
+          $('#load-disqus').remove();
+        }
+    }
+  };
+</script>
 
 
 
